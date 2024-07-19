@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Share a post</title>
+  <link href="css/blog.css" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+    <h1>Share "Post 1" by e-mail</h1>
+    <form method="post" novalidate>
+      <p>
+        <label for="id_name">Name:</label>
+        <input type="text" name="name" maxlength="25" required="" id="id_name">
+      </p>
+      <p>
+        <label for="id_email">Email:</label>
+        <input type="email" name="email" maxlength="320" required="" id="id_email">
+      </p>
+      <p>
+        <label for="id_to">To:</label>
+        <input type="email" name="to" maxlength="320" required="" id="id_to">
+      </p>
+      <p>
+        <label for="id_comments">Comments:</label>
+        <textarea name="comments" cols="40" rows="10" id="id_comments"></textarea>
+      </p>
+      <input type="submit" value="Send e-mail">
+    </form>
+  </div>
+  <div id="sidebar">
+    <h2>My blog</h2>
+    <p>This is my blog.</p>
+  </div>
+</body>
+</html>
